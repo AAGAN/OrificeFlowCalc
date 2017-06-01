@@ -15,7 +15,7 @@ int main()
     OrificeFlowCalc(MFR = 0, Pin = 0, orifice_diameter = 0, density = 0, beta = 0, coe = 0);
     std::cout << "MFR = " << MFR << std::endl << "Pin = " << Pin << std::endl << "orifice_diameter = " << orifice_diameter << std::endl << "density = " << density << std::endl << "beta = " << beta << std::endl << "coe = " << coe << std::endl;
     
-    OrificeFlowCalc( MFR = 1, Pin = 1000000 , orifice_diameter = 0.2, density = 14.0, beta = 0 , coe = 0);
+    OrificeFlowCalc( MFR = 1, Pin = 1000000 , orifice_diameter = 0.02, density = 14.0, beta = 0 , coe = 0);
     std::cout << "MFR = " << MFR << std::endl << "Pin = " << Pin << std::endl << "orifice_diameter = " << orifice_diameter << std::endl << "density = " << density << std::endl << "beta = " << beta << std::endl << "coe = " << coe << std::endl;
     
     
